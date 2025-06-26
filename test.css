@@ -1,0 +1,134 @@
+@charset "utf-8";
+
+body{
+    background-color: antiquewhite;
+    margin: 0;
+}
+
+/*コンテナ*/
+.container{
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+h2{
+    font-family: sans-serif;
+    text-shadow: 3px 3px 4px gray;
+    line-height: 1.1;
+}
+
+/*本文*/
+p{
+    line-height: 1.7;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.know-substitute{
+    color:yellowgreen;
+    border-bottom: 2px solid #000;
+    letter-spacing: 3px;
+}
+
+.python-recommend{
+    color:brown;
+    border-bottom: 2px solid #000;
+    letter-spacing: 3px;
+}
+
+.table-test{
+    color: cyan;
+    border-bottom: 2px solid #000;
+    letter-spacing: 3px;
+}
+
+/*箇条書き*/
+.unorderedlist1{
+    list-style-type: square;
+}
+
+/*写真*/
+#python-recommend{
+    overflow:auto;
+}
+
+.large-image{
+    float: auto;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/*表*/
+table{
+    border: 2px solid #ccc;
+    border-collapse: collapse;
+    width: 100%;
+}
+th,td{
+    border: 2px solid #ccc;
+    padding: 10px;
+}
+th{
+    background-color: aquamarine;
+}
+td{
+    background-color: #fff;
+}
+.data{
+    text-align: center;
+}
+
+/*グローバルメニュー*/
+.global-nav{
+    font-size: 18px;
+    width: 940px;
+    background-color: #000;
+}
+
+.nav-list{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.nav-item{
+    display: inline-block;
+    padding: 20px 15px;
+    color: #fff;
+}
+
+footer{
+    text-align: center;
+    margin: 40px 0 20px;
+}
+
+/*マルチカラム関連*/
+.wrapper{
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-area{
+    flex-basis: 70%;
+}
+
+.sub-area{
+    flex-basis: 20%;
+}
+
+/*サイドバー内のスタイル*/
+.sidebar{
+    margin: 40px 0;
+}
+
+.sidebar-title{
+    margin: 0 0 30px;
+}
+
+.sidebar-list{
+    list-style-type: square;
+}
